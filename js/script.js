@@ -49,7 +49,7 @@ function evaluateSymptoms() {
   const triageTips = generateTips(triageLevel);
   const meetingContainer = document.getElementById("jaas-container");
   const meetingPlaceHolder = document.getElementById("placeholdMeet");
-  tipsSection.textContent = "Triage Level: " + triageLevel + " Recomeneded tips: " + triageTips;
+  tipsSection.textContent = "Triage Level: " + triageLevel + " Recomeneded tips: " + triageTips + " Here are some doctors that can help you with your needs Dr. John, Dr.Jignesh, Dr. Juan, Dr Jaquavion";
   meetingPlaceHolder.style.display = "none";
   meetingContainer.style.display = "block";
 }
